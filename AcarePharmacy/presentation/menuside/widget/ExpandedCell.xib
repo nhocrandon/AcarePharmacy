@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="menuExpanded" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="195" id="ulj-8A-mtp" customClass="MenuExpandedTableViewCell" customModule="AcarePharmacy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="781" height="195"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ulj-8A-mtp" id="QSt-qo-wXB">
+                <rect key="frame" x="0.0" y="0.0" width="781" height="194.66666666666666"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6CE-I1-KkG">
+                        <rect key="frame" x="0.0" y="0.0" width="781" height="195"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rhI-50-Etl">
+                                <rect key="frame" x="0.0" y="0.0" width="194.66666666666666" height="194.66666666666666"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rhI-50-Etl" secondAttribute="height" multiplier="1:1" id="2LV-Fr-sT4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXQ-Dr-8dZ">
+                                <rect key="frame" x="204.66666666666669" y="87" width="556.33333333333326" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rhI-50-Etl" firstAttribute="centerY" secondItem="6CE-I1-KkG" secondAttribute="centerY" id="5NI-5Z-afP"/>
+                            <constraint firstItem="rhI-50-Etl" firstAttribute="height" secondItem="6CE-I1-KkG" secondAttribute="height" id="DPF-EN-Aya"/>
+                            <constraint firstItem="OXQ-Dr-8dZ" firstAttribute="centerY" secondItem="6CE-I1-KkG" secondAttribute="centerY" id="He9-Bt-d72"/>
+                            <constraint firstItem="rhI-50-Etl" firstAttribute="leading" secondItem="6CE-I1-KkG" secondAttribute="leading" id="M4R-9n-5AV"/>
+                            <constraint firstItem="OXQ-Dr-8dZ" firstAttribute="leading" secondItem="rhI-50-Etl" secondAttribute="trailing" constant="10" id="SfP-Nn-sWL"/>
+                            <constraint firstAttribute="trailing" secondItem="OXQ-Dr-8dZ" secondAttribute="trailing" constant="20" id="Zlo-uD-Ygr"/>
+                            <constraint firstAttribute="width" constant="781" id="eg3-vQ-9XL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6CE-I1-KkG" firstAttribute="leading" secondItem="QSt-qo-wXB" secondAttribute="leading" id="1tV-Xy-faY"/>
+                    <constraint firstAttribute="bottom" secondItem="6CE-I1-KkG" secondAttribute="bottom" id="XMz-xc-HO6"/>
+                    <constraint firstItem="6CE-I1-KkG" firstAttribute="top" secondItem="QSt-qo-wXB" secondAttribute="top" id="evC-Tl-afQ"/>
+                    <constraint firstAttribute="trailing" secondItem="6CE-I1-KkG" secondAttribute="trailing" id="jCS-5f-bjF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="8"/>
+            <connections>
+                <outlet property="imageItem" destination="rhI-50-Etl" id="ztl-dx-HUS"/>
+                <outlet property="lblNameItem" destination="OXQ-Dr-8dZ" id="Scr-qf-4iY"/>
+                <outlet property="widthConstraint" destination="eg3-vQ-9XL" id="8SG-LT-cXW"/>
+            </connections>
+            <point key="canvasLocation" x="235.5" y="710.5"/>
+        </tableViewCell>
+    </objects>
+</document>

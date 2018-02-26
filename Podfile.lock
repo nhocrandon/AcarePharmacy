@@ -1,0 +1,27 @@
+PODS:
+  - CarbonKit (2.2.2)
+  - EVURLCache (3.4.0)
+  - ExpandableCell (1.2.2)
+  - RAMAnimatedTabBarController (3.0.1)
+  - SideMenu (3.1.5)
+  - YNExpandableCell (1.1.0)
+
+DEPENDENCIES:
+  - CarbonKit
+  - EVURLCache
+  - ExpandableCell
+  - RAMAnimatedTabBarController
+  - SideMenu
+  - YNExpandableCell
+
+SPEC CHECKSUMS:
+  CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
+  EVURLCache: f3359af22761e86f7e3fba26761b77cb27c4dcea
+  ExpandableCell: f2d99f9ae03a8c393e268adddaeb7f6d2525a76e
+  RAMAnimatedTabBarController: 78bafa7a1c1b162f0d4a86a936c0d1ee4a06ffcc
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  YNExpandableCell: 47bf7cff721aa535c0e9e1163bf22b5573441bb4
+
+PODFILE CHECKSUM: a92c4360466b0b7aa00f031453885fc9bdb13363
+
+COCOAPODS: 1.3.1

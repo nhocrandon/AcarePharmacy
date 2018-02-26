@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51973A5AA6B1C5BD443D9B3 /* Pods_AcarePharmacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B39155BBC707BC8E29EE16 /* Pods_AcarePharmacy.framework */; };
+		FD68208C20108E2500600FA2 /* MenuNormalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68208B20108E2500600FA2 /* MenuNormalTableViewCell.swift */; };
+		FD68208E20108E3D00600FA2 /* MenuExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68208D20108E3D00600FA2 /* MenuExpandableTableViewCell.swift */; };
+		FD68209020108E6900600FA2 /* ExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD68208F20108E6900600FA2 /* ExpandableCell.xib */; };
+		FD68209220108EB900600FA2 /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD68209120108EB900600FA2 /* NormalCell.xib */; };
+		FD6820942010953700600FA2 /* ExpandedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6820932010953700600FA2 /* ExpandedCell.xib */; };
+		FD6820962010955000600FA2 /* MenuExpandedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6820952010955000600FA2 /* MenuExpandedTableViewCell.swift */; };
+		FD6BAC082011A10C0087DB32 /* TACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BAC072011A10C0087DB32 /* TACollectionViewCell.swift */; };
+		FD6BAC0A2011A1A80087DB32 /* TACell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6BAC092011A1A80087DB32 /* TACell.xib */; };
+		FD75A88820198C1C00E0BE7C /* DetailDiseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75A88720198C1C00E0BE7C /* DetailDiseaseViewController.swift */; };
+		FD75A88D2019BFE400E0BE7C /* MainDiseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75A88C2019BFE400E0BE7C /* MainDiseaseViewController.swift */; };
+		FD75A8922019D67600E0BE7C /* TabContainInDetailDiseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75A8912019D67600E0BE7C /* TabContainInDetailDiseaseViewController.swift */; };
+		FD75A8942019DD9300E0BE7C /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75A8932019DD9300E0BE7C /* LibraryViewController.swift */; };
+		FD75A8982019EE0C00E0BE7C /* ReproductiveHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75A8972019EE0C00E0BE7C /* ReproductiveHealthViewController.swift */; };
+		FD75A89A2019EF2D00E0BE7C /* ReproductiveHealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75A8992019EF2D00E0BE7C /* ReproductiveHealthTableViewCell.swift */; };
+		FD75A89C2019EF7200E0BE7C /* ReproductiveHealthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD75A89B2019EF7200E0BE7C /* ReproductiveHealthTableViewCell.xib */; };
+		FD8831C82011F10000A9C241 /* DiseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8831C72011F10000A9C241 /* DiseaseViewController.swift */; };
+		FD8831CF2011F41400A9C241 /* DiseaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8831CE2011F41400A9C241 /* DiseaseCollectionViewCell.xib */; };
+		FD8B3816200F56AD002FC5C0 /* MenuSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8B3815200F56AD002FC5C0 /* MenuSideViewController.swift */; };
 		FD8BBDA6200E0E8E0082F71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8BBDA5200E0E8E0082F71F /* AppDelegate.swift */; };
-		FD8BBDA8200E0E8E0082F71F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8BBDA7200E0E8E0082F71F /* ViewController.swift */; };
+		FD8BBDA8200E0E8E0082F71F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8BBDA7200E0E8E0082F71F /* HomeViewController.swift */; };
 		FD8BBDAB200E0E8E0082F71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8BBDA9200E0E8E0082F71F /* Main.storyboard */; };
 		FD8BBDAD200E0E8E0082F71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8BBDAC200E0E8E0082F71F /* Assets.xcassets */; };
 		FD8BBDB0200E0E8E0082F71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8BBDAE200E0E8E0082F71F /* LaunchScreen.storyboard */; };
+		FDAB231D2015F62F008D2CA1 /* DiseaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB231C2015F62F008D2CA1 /* DiseaseCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EC3678778BE793B327E1A36 /* Pods-AcarePharmacy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcarePharmacy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcarePharmacy/Pods-AcarePharmacy.debug.xcconfig"; sourceTree = "<group>"; };
+		89B39155BBC707BC8E29EE16 /* Pods_AcarePharmacy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcarePharmacy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD82CD99601565C239E90F4 /* Pods-AcarePharmacy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcarePharmacy.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcarePharmacy/Pods-AcarePharmacy.release.xcconfig"; sourceTree = "<group>"; };
+		FD68208B20108E2500600FA2 /* MenuNormalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNormalTableViewCell.swift; sourceTree = "<group>"; };
+		FD68208D20108E3D00600FA2 /* MenuExpandableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		FD68208F20108E6900600FA2 /* ExpandableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableCell.xib; sourceTree = "<group>"; };
+		FD68209120108EB900600FA2 /* NormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
+		FD6820932010953700600FA2 /* ExpandedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandedCell.xib; sourceTree = "<group>"; };
+		FD6820952010955000600FA2 /* MenuExpandedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExpandedTableViewCell.swift; sourceTree = "<group>"; };
+		FD6BAC072011A10C0087DB32 /* TACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TACollectionViewCell.swift; sourceTree = "<group>"; };
+		FD6BAC092011A1A80087DB32 /* TACell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TACell.xib; sourceTree = "<group>"; };
+		FD75A88720198C1C00E0BE7C /* DetailDiseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiseaseViewController.swift; sourceTree = "<group>"; };
+		FD75A88C2019BFE400E0BE7C /* MainDiseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDiseaseViewController.swift; sourceTree = "<group>"; };
+		FD75A8912019D67600E0BE7C /* TabContainInDetailDiseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainInDetailDiseaseViewController.swift; sourceTree = "<group>"; };
+		FD75A8932019DD9300E0BE7C /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		FD75A8972019EE0C00E0BE7C /* ReproductiveHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductiveHealthViewController.swift; sourceTree = "<group>"; };
+		FD75A8992019EF2D00E0BE7C /* ReproductiveHealthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductiveHealthTableViewCell.swift; sourceTree = "<group>"; };
+		FD75A89B2019EF7200E0BE7C /* ReproductiveHealthTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReproductiveHealthTableViewCell.xib; sourceTree = "<group>"; };
+		FD8831C72011F10000A9C241 /* DiseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseViewController.swift; sourceTree = "<group>"; };
+		FD8831CE2011F41400A9C241 /* DiseaseCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiseaseCollectionViewCell.xib; sourceTree = "<group>"; };
+		FD8B3815200F56AD002FC5C0 /* MenuSideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSideViewController.swift; sourceTree = "<group>"; };
 		FD8BBDA2200E0E8E0082F71F /* AcarePharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcarePharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8BBDA5200E0E8E0082F71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD8BBDA7200E0E8E0082F71F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD8BBDA7200E0E8E0082F71F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD8BBDAA200E0E8E0082F71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD8BBDAC200E0E8E0082F71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8BBDAF200E0E8E0082F71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD8BBDB1200E0E8E0082F71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAB231C2015F62F008D2CA1 /* DiseaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,152 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51973A5AA6B1C5BD443D9B3 /* Pods_AcarePharmacy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		888BB84FE7E8B9DF93E54784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3678778BE793B327E1A36 /* Pods-AcarePharmacy.debug.xcconfig */,
+				8CD82CD99601565C239E90F4 /* Pods-AcarePharmacy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCC09768E224376F3C8EAA19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B39155BBC707BC8E29EE16 /* Pods_AcarePharmacy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6BAC0620119DB80087DB32 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				FD68208B20108E2500600FA2 /* MenuNormalTableViewCell.swift */,
+				FD68208D20108E3D00600FA2 /* MenuExpandableTableViewCell.swift */,
+				FD6820952010955000600FA2 /* MenuExpandedTableViewCell.swift */,
+				FD68208F20108E6900600FA2 /* ExpandableCell.xib */,
+				FD68209120108EB900600FA2 /* NormalCell.xib */,
+				FD6820932010953700600FA2 /* ExpandedCell.xib */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		FD75A8952019DDE000E0BE7C /* widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		FD75A8962019ED4900E0BE7C /* disease */ = {
+			isa = PBXGroup;
+			children = (
+				FD75A8972019EE0C00E0BE7C /* ReproductiveHealthViewController.swift */,
+				FD75A8992019EF2D00E0BE7C /* ReproductiveHealthTableViewCell.swift */,
+				FD75A89B2019EF7200E0BE7C /* ReproductiveHealthTableViewCell.xib */,
+			);
+			path = disease;
+			sourceTree = "<group>";
+		};
+		FD8831C52011E96900A9C241 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BAC072011A10C0087DB32 /* TACollectionViewCell.swift */,
+				FD6BAC092011A1A80087DB32 /* TACell.xib */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		FD8831C62011F03D00A9C241 /* disease */ = {
+			isa = PBXGroup;
+			children = (
+				FD8831C92011F33F00A9C241 /* widget */,
+				FD8831C72011F10000A9C241 /* DiseaseViewController.swift */,
+				FD75A88720198C1C00E0BE7C /* DetailDiseaseViewController.swift */,
+				FD75A88C2019BFE400E0BE7C /* MainDiseaseViewController.swift */,
+				FD75A8912019D67600E0BE7C /* TabContainInDetailDiseaseViewController.swift */,
+			);
+			path = disease;
+			sourceTree = "<group>";
+		};
+		FD8831C92011F33F00A9C241 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				FD8831CE2011F41400A9C241 /* DiseaseCollectionViewCell.xib */,
+				FDAB231C2015F62F008D2CA1 /* DiseaseCollectionViewCell.swift */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		FD8B380F200F3EA3002FC5C0 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FD8B3814200F5560002FC5C0 /* menuside */,
+				FD8B3813200F554C002FC5C0 /* game */,
+				FD8B3812200F5542002FC5C0 /* sight */,
+				FD8B3811200F5503002FC5C0 /* library */,
+				FD8831C62011F03D00A9C241 /* disease */,
+				FD8B3810200F42AA002FC5C0 /* homeview */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		FD8B3810200F42AA002FC5C0 /* homeview */ = {
+			isa = PBXGroup;
+			children = (
+				FD8831C52011E96900A9C241 /* widget */,
+				FD8BBDA7200E0E8E0082F71F /* HomeViewController.swift */,
+			);
+			path = homeview;
+			sourceTree = "<group>";
+		};
+		FD8B3811200F5503002FC5C0 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				FD75A8962019ED4900E0BE7C /* disease */,
+				FD75A8952019DDE000E0BE7C /* widget */,
+				FD75A8932019DD9300E0BE7C /* LibraryViewController.swift */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		FD8B3812200F5542002FC5C0 /* sight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sight;
+			sourceTree = "<group>";
+		};
+		FD8B3813200F554C002FC5C0 /* game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		FD8B3814200F5560002FC5C0 /* menuside */ = {
+			isa = PBXGroup;
+			children = (
+				FD6BAC0620119DB80087DB32 /* widget */,
+				FD8B3815200F56AD002FC5C0 /* MenuSideViewController.swift */,
+			);
+			path = menuside;
+			sourceTree = "<group>";
+		};
 		FD8BBD99200E0E8E0082F71F = {
 			isa = PBXGroup;
 			children = (
 				FD8BBDA4200E0E8E0082F71F /* AcarePharmacy */,
 				FD8BBDA3200E0E8E0082F71F /* Products */,
+				888BB84FE7E8B9DF93E54784 /* Pods */,
+				DCC09768E224376F3C8EAA19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +231,22 @@
 		FD8BBDA4200E0E8E0082F71F /* AcarePharmacy */ = {
 			isa = PBXGroup;
 			children = (
+				FD8B380F200F3EA3002FC5C0 /* presentation */,
+				FD8BBDB7200E0EC50082F71F /* resource */,
 				FD8BBDA5200E0E8E0082F71F /* AppDelegate.swift */,
-				FD8BBDA7200E0E8E0082F71F /* ViewController.swift */,
 				FD8BBDA9200E0E8E0082F71F /* Main.storyboard */,
 				FD8BBDAC200E0E8E0082F71F /* Assets.xcassets */,
 				FD8BBDAE200E0E8E0082F71F /* LaunchScreen.storyboard */,
 				FD8BBDB1200E0E8E0082F71F /* Info.plist */,
 			);
 			path = AcarePharmacy;
+			sourceTree = "<group>";
+		};
+		FD8BBDB7200E0EC50082F71F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD8BBDB4200E0E8E0082F71F /* Build configuration list for PBXNativeTarget "AcarePharmacy" */;
 			buildPhases = (
+				C583BB9D8D617761CBA60B11 /* [CP] Check Pods Manifest.lock */,
 				FD8BBD9E200E0E8E0082F71F /* Sources */,
 				FD8BBD9F200E0E8E0082F71F /* Frameworks */,
 				FD8BBDA0200E0E8E0082F71F /* Resources */,
+				AFD81F6F3A918E3FEFA1A623 /* [CP] Embed Pods Frameworks */,
+				43DCCA33BECF90B319A7FB2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +311,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6BAC0A2011A1A80087DB32 /* TACell.xib in Resources */,
+				FD6820942010953700600FA2 /* ExpandedCell.xib in Resources */,
 				FD8BBDB0200E0E8E0082F71F /* LaunchScreen.storyboard in Resources */,
+				FD75A89C2019EF7200E0BE7C /* ReproductiveHealthTableViewCell.xib in Resources */,
+				FD8831CF2011F41400A9C241 /* DiseaseCollectionViewCell.xib in Resources */,
 				FD8BBDAD200E0E8E0082F71F /* Assets.xcassets in Resources */,
+				FD68209020108E6900600FA2 /* ExpandableCell.xib in Resources */,
+				FD68209220108EB900600FA2 /* NormalCell.xib in Resources */,
 				FD8BBDAB200E0E8E0082F71F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43DCCA33BECF90B319A7FB2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcarePharmacy/Pods-AcarePharmacy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD81F6F3A918E3FEFA1A623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AcarePharmacy/Pods-AcarePharmacy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/EVURLCache/EVURLCache.framework",
+				"${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/YNExpandableCell/YNExpandableCell.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVURLCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNExpandableCell.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcarePharmacy/Pods-AcarePharmacy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C583BB9D8D617761CBA60B11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcarePharmacy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD8BBD9E200E0E8E0082F71F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8BBDA8200E0E8E0082F71F /* ViewController.swift in Sources */,
+				FDAB231D2015F62F008D2CA1 /* DiseaseCollectionViewCell.swift in Sources */,
+				FD6BAC082011A10C0087DB32 /* TACollectionViewCell.swift in Sources */,
+				FD75A88820198C1C00E0BE7C /* DetailDiseaseViewController.swift in Sources */,
+				FD68208E20108E3D00600FA2 /* MenuExpandableTableViewCell.swift in Sources */,
+				FD6820962010955000600FA2 /* MenuExpandedTableViewCell.swift in Sources */,
+				FD8831C82011F10000A9C241 /* DiseaseViewController.swift in Sources */,
+				FD75A88D2019BFE400E0BE7C /* MainDiseaseViewController.swift in Sources */,
+				FD75A89A2019EF2D00E0BE7C /* ReproductiveHealthTableViewCell.swift in Sources */,
+				FD8B3816200F56AD002FC5C0 /* MenuSideViewController.swift in Sources */,
+				FD75A8982019EE0C00E0BE7C /* ReproductiveHealthViewController.swift in Sources */,
+				FD68208C20108E2500600FA2 /* MenuNormalTableViewCell.swift in Sources */,
+				FD8BBDA8200E0E8E0082F71F /* HomeViewController.swift in Sources */,
+				FD75A8922019D67600E0BE7C /* TabContainInDetailDiseaseViewController.swift in Sources */,
 				FD8BBDA6200E0E8E0082F71F /* AppDelegate.swift in Sources */,
+				FD75A8942019DD9300E0BE7C /* LibraryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +543,13 @@
 		};
 		FD8BBDB5200E0E8E0082F71F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC3678778BE793B327E1A36 /* Pods-AcarePharmacy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87X8SXNQWV;
 				INFOPLIST_FILE = AcarePharmacy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LongQuach.AcarePharmacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +560,13 @@
 		};
 		FD8BBDB6200E0E8E0082F71F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD82CD99601565C239E90F4 /* Pods-AcarePharmacy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87X8SXNQWV;
 				INFOPLIST_FILE = AcarePharmacy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LongQuach.AcarePharmacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
