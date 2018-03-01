@@ -13,25 +13,25 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="taCell" id="x8t-dx-tkc" customClass="TACollectionViewCell" customModule="AcarePharmacy" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="646" height="417"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="taCell" id="NVS-rg-9aq" customClass="TACollectionViewCell" customModule="AcarePharmacy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="397"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                <rect key="frame" x="0.0" y="0.0" width="646" height="417"/>
+                <rect key="frame" x="0.0" y="0.0" width="300" height="397"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tMx-nf-b8t">
-                        <rect key="frame" x="0.0" y="0.0" width="646" height="417"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DzS-LP-Abi">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="397"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbO-lc-dmw">
-                                <rect key="frame" x="173" y="0.0" width="300" height="300"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-O4-xyY">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="NbO-lc-dmw" secondAttribute="height" multiplier="1:1" id="LTz-8O-eHc"/>
-                                    <constraint firstAttribute="height" constant="300" id="cEC-j8-5WW"/>
+                                    <constraint firstAttribute="width" secondItem="ugq-O4-xyY" secondAttribute="height" multiplier="1:1" id="TT3-35-Ket"/>
+                                    <constraint firstAttribute="height" constant="300" id="wO5-yV-MqT"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUQ-wp-z2M">
-                                <rect key="frame" x="0.0" y="300" width="646" height="117"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPa-aQ-o6J">
+                                <rect key="frame" x="0.0" y="300" width="300" height="97"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -39,31 +39,33 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="pUQ-wp-z2M" secondAttribute="bottom" id="Zik-1p-Ulm"/>
-                            <constraint firstItem="pUQ-wp-z2M" firstAttribute="leading" secondItem="tMx-nf-b8t" secondAttribute="leading" id="gNF-9v-AE6"/>
-                            <constraint firstItem="NbO-lc-dmw" firstAttribute="centerX" secondItem="tMx-nf-b8t" secondAttribute="centerX" id="jIt-1Q-EB1"/>
-                            <constraint firstAttribute="width" constant="646" id="pBN-DJ-Xol"/>
-                            <constraint firstItem="NbO-lc-dmw" firstAttribute="top" secondItem="tMx-nf-b8t" secondAttribute="top" id="qZo-kQ-jd6"/>
-                            <constraint firstAttribute="trailing" secondItem="pUQ-wp-z2M" secondAttribute="trailing" id="voI-nU-oT9"/>
-                            <constraint firstItem="pUQ-wp-z2M" firstAttribute="top" secondItem="NbO-lc-dmw" secondAttribute="bottom" id="w6u-Bv-Jku"/>
+                            <constraint firstItem="MPa-aQ-o6J" firstAttribute="trailing" secondItem="ugq-O4-xyY" secondAttribute="trailing" id="2fL-eb-MxX"/>
+                            <constraint firstItem="MPa-aQ-o6J" firstAttribute="leading" secondItem="ugq-O4-xyY" secondAttribute="leading" id="Ajl-vZ-W47"/>
+                            <constraint firstAttribute="width" constant="300" id="PGQ-RZ-esT"/>
+                            <constraint firstAttribute="bottom" secondItem="MPa-aQ-o6J" secondAttribute="bottom" id="XNL-cV-5bD"/>
+                            <constraint firstItem="MPa-aQ-o6J" firstAttribute="top" secondItem="ugq-O4-xyY" secondAttribute="bottom" id="YtA-Md-x5A"/>
+                            <constraint firstAttribute="trailing" secondItem="ugq-O4-xyY" secondAttribute="trailing" id="goC-8i-JSg"/>
+                            <constraint firstItem="ugq-O4-xyY" firstAttribute="leading" secondItem="DzS-LP-Abi" secondAttribute="leading" id="mj3-9F-qXE"/>
+                            <constraint firstItem="ugq-O4-xyY" firstAttribute="top" secondItem="DzS-LP-Abi" secondAttribute="top" id="rou-4M-iqF"/>
                         </constraints>
                     </view>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="tMx-nf-b8t" firstAttribute="top" secondItem="x8t-dx-tkc" secondAttribute="top" id="3il-kC-B3y"/>
-                <constraint firstAttribute="bottom" secondItem="tMx-nf-b8t" secondAttribute="bottom" id="Bqt-mU-f6l"/>
-                <constraint firstItem="tMx-nf-b8t" firstAttribute="leading" secondItem="x8t-dx-tkc" secondAttribute="leading" id="PYO-E7-4BZ"/>
-                <constraint firstAttribute="trailing" secondItem="tMx-nf-b8t" secondAttribute="trailing" id="trY-CP-HVl"/>
+                <constraint firstAttribute="trailing" secondItem="DzS-LP-Abi" secondAttribute="trailing" id="B2D-cZ-2eG"/>
+                <constraint firstItem="DzS-LP-Abi" firstAttribute="leading" secondItem="NVS-rg-9aq" secondAttribute="leading" id="FaT-aq-WuG"/>
+                <constraint firstAttribute="bottom" secondItem="DzS-LP-Abi" secondAttribute="bottom" id="frL-w3-TQZ"/>
+                <constraint firstItem="DzS-LP-Abi" firstAttribute="top" secondItem="NVS-rg-9aq" secondAttribute="top" id="uqa-Hs-WPH"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="MO2-Pj-01N"/>
-            <size key="customSize" width="553" height="428"/>
+            <viewLayoutGuide key="safeArea" id="Qd4-1k-bL0"/>
+            <size key="customSize" width="207" height="408"/>
             <connections>
-                <outlet property="imageTA" destination="NbO-lc-dmw" id="u4Y-uU-5f8"/>
-                <outlet property="lblTAName" destination="pUQ-wp-z2M" id="WNU-Jk-CeW"/>
-                <outlet property="widthContraint" destination="pBN-DJ-Xol" id="9KA-P2-dGJ"/>
+                <outlet property="heightContraint" destination="wO5-yV-MqT" id="kkC-wS-Uak"/>
+                <outlet property="imageTA" destination="ugq-O4-xyY" id="WzH-i5-8ww"/>
+                <outlet property="lblTAName" destination="MPa-aQ-o6J" id="JRh-nR-fMj"/>
+                <outlet property="widthContraint" destination="PGQ-RZ-esT" id="a3f-iW-hfK"/>
             </connections>
-            <point key="canvasLocation" x="-166" y="293.5"/>
+            <point key="canvasLocation" x="-339" y="283.5"/>
         </collectionViewCell>
     </objects>
 </document>

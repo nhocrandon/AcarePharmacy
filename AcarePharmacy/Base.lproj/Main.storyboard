@@ -221,7 +221,7 @@
                                 <rect key="frame" x="0.0" y="804.5" width="768" height="170.5"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dto-bT-J1b">
-                                <rect key="frame" x="0.0" y="64" width="768" height="741"/>
+                                <rect key="frame" x="20" y="64" width="728" height="740.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GBm-yB-aju">
                                     <size key="itemSize" width="100" height="130"/>
@@ -240,11 +240,11 @@
                         <constraints>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="height" secondItem="sDf-fc-3hx" secondAttribute="height" multiplier="1/6" id="0K8-95-f66"/>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="top" secondItem="dto-bT-J1b" secondAttribute="bottom" id="1yt-PE-5zD"/>
-                            <constraint firstItem="dto-bT-J1b" firstAttribute="top" secondItem="Ijf-pZ-mkt" secondAttribute="top" id="BoJ-w1-eOQ"/>
-                            <constraint firstItem="dto-bT-J1b" firstAttribute="leading" secondItem="Ijf-pZ-mkt" secondAttribute="leading" id="Fd9-2h-udB"/>
+                            <constraint firstItem="dto-bT-J1b" firstAttribute="leading" secondItem="Ijf-pZ-mkt" secondAttribute="leading" constant="20" id="36L-ah-dSR"/>
+                            <constraint firstItem="Ijf-pZ-mkt" firstAttribute="trailing" secondItem="dto-bT-J1b" secondAttribute="trailing" constant="20" id="Hs8-MD-e8R"/>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="width" secondItem="sDf-fc-3hx" secondAttribute="width" id="Rxm-xC-ygL"/>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="bottom" secondItem="Ijf-pZ-mkt" secondAttribute="bottom" id="c9k-B6-DWL"/>
-                            <constraint firstItem="dto-bT-J1b" firstAttribute="trailing" secondItem="Ijf-pZ-mkt" secondAttribute="trailing" id="lV9-9U-LCp"/>
+                            <constraint firstItem="dto-bT-J1b" firstAttribute="top" secondItem="Ijf-pZ-mkt" secondAttribute="top" id="hMg-QV-eYg"/>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="leading" secondItem="Ijf-pZ-mkt" secondAttribute="leading" id="yRt-2S-1LV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ijf-pZ-mkt"/>
@@ -381,8 +381,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="yFh-ns-mP9">
                                 <rect key="frame" x="0.0" y="853.5" width="768" height="170.5"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="CDd-4C-BqS">
+                                <rect key="frame" x="0.0" y="20" width="768" height="256"/>
+                            </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dfq-Dy-bMn">
-                                <rect key="frame" x="0.0" y="276" width="768" height="578"/>
+                                <rect key="frame" x="20" y="276" width="728" height="577.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Y6X-J0-6P1">
                                     <size key="itemSize" width="100" height="130"/>
@@ -396,9 +399,6 @@
                                     <outlet property="delegate" destination="kDG-hx-iO2" id="QIJ-oX-kS6"/>
                                 </connections>
                             </collectionView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="CDd-4C-BqS">
-                                <rect key="frame" x="0.0" y="20" width="768" height="256"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -408,12 +408,13 @@
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="leading" secondItem="BpU-L6-pFa" secondAttribute="leading" id="4za-U5-jId"/>
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="height" secondItem="1UK-25-WRd" secondAttribute="height" multiplier="1/6" id="5JD-UP-9Ti"/>
                             <constraint firstItem="CDd-4C-BqS" firstAttribute="top" secondItem="BpU-L6-pFa" secondAttribute="top" id="7su-C2-arP"/>
-                            <constraint firstItem="dfq-Dy-bMn" firstAttribute="leading" secondItem="BpU-L6-pFa" secondAttribute="leading" id="CJV-q6-f2h"/>
+                            <constraint firstItem="dfq-Dy-bMn" firstAttribute="leading" secondItem="BpU-L6-pFa" secondAttribute="leading" constant="20" id="DQJ-00-6dk"/>
+                            <constraint firstItem="yFh-ns-mP9" firstAttribute="top" secondItem="dfq-Dy-bMn" secondAttribute="bottom" id="KZi-on-Qny"/>
+                            <constraint firstItem="dfq-Dy-bMn" firstAttribute="top" secondItem="CDd-4C-BqS" secondAttribute="bottom" id="Oap-AG-e44"/>
+                            <constraint firstItem="BpU-L6-pFa" firstAttribute="trailing" secondItem="dfq-Dy-bMn" secondAttribute="trailing" constant="20" id="SQb-PB-7p3"/>
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="top" secondItem="dfq-Dy-bMn" secondAttribute="bottom" id="Wlf-df-inT"/>
                             <constraint firstItem="CDd-4C-BqS" firstAttribute="trailing" secondItem="BpU-L6-pFa" secondAttribute="trailing" id="Ygh-ns-Auf"/>
                             <constraint firstItem="CDd-4C-BqS" firstAttribute="leading" secondItem="BpU-L6-pFa" secondAttribute="leading" id="jxI-Ho-Hqf"/>
-                            <constraint firstItem="dfq-Dy-bMn" firstAttribute="trailing" secondItem="BpU-L6-pFa" secondAttribute="trailing" id="qZg-oA-f7J"/>
-                            <constraint firstItem="dfq-Dy-bMn" firstAttribute="top" secondItem="CDd-4C-BqS" secondAttribute="bottom" id="zms-RA-AVS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BpU-L6-pFa"/>
                     </view>
@@ -528,7 +529,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="iFb-vu-wTD"/>
                     <connections>
-                        <outlet property="gridHomeMenuCollectionView" destination="U5q-VN-2P1" id="Pq8-rX-25g"/>
+                        <outlet property="collectionViewDisease" destination="U5q-VN-2P1" id="Qvq-GA-RMY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ned-50-cDp" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -95,6 +95,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
+
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return arrImageData.count
@@ -113,9 +114,8 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         nextScreen.title = arrNameData[indexPath.row]
         self.navigationController?.pushViewController(nextScreen, animated: true)
     }
-    
     /*
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let screenWidth = UIScreen.main.bounds.size.width
         return CGSize(width: screenWidth, height: screenWidth);
     }*/
