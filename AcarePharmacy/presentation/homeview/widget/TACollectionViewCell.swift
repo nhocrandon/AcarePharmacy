@@ -20,9 +20,11 @@ class TACollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        imageTA.layer.cornerRadius = 100
         imageTA.layer.masksToBounds = true
+        imageTA.contentMode = .scaleAspectFit
+        imageTA.layer.cornerRadius = imageTA.frame.size.width/4
+        imageTA.layer.masksToBounds = true
+        imageTA.clipsToBounds = true
         
         contentView.translatesAutoresizingMaskIntoConstraints = false
         let screenWidth = UIScreen.main.bounds.size.width

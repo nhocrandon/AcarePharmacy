@@ -61,9 +61,11 @@ class MenuSideViewController: UIViewController {
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title:"ok", style: .plain, target: nil, action: nil)
         
         avatarImage.image = #imageLiteral(resourceName: "menu_avatar")
-        avatarImage.layer.cornerRadius = avatarImage.layer.frame.width/2
+        avatarImage.layer.cornerRadius = avatarImage.frame.size.width/4
+        //avatarImage.layer.masksToBounds = true
+        avatarImage.contentMode = .scaleAspectFit
         avatarImage.layer.masksToBounds = true
-        
+        avatarImage.clipsToBounds = true
         
         tableViewMenu.expandableDelegate = self
         tableViewMenu.animation = .automatic

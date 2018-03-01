@@ -20,8 +20,11 @@ class DiseaseCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        imageDisease.layer.cornerRadius = 100
         imageDisease.layer.masksToBounds = true
+        imageDisease.contentMode = .scaleAspectFit
+        imageDisease.layer.cornerRadius = imageDisease.frame.size.width/4
+        imageDisease.layer.masksToBounds = true
+        imageDisease.clipsToBounds = true
         contentView.translatesAutoresizingMaskIntoConstraints = false
         let screenWidth = UIScreen.main.bounds.size.width
         widthContraint.constant = screenWidth/2 - 50
