@@ -179,58 +179,6 @@
             </objects>
             <point key="canvasLocation" x="-2697" y="-915"/>
         </scene>
-        <!--Library View Controller-->
-        <scene sceneID="1Ns-Qj-IB5">
-            <objects>
-                <viewController id="V6P-jq-fg8" customClass="LibraryViewController" customModule="AcarePharmacy" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rgQ-74-YPZ">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="1bF-Nw-yBk">
-                                <rect key="frame" x="0.0" y="804.5" width="768" height="170.5"/>
-                            </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="EzG-pf-GAM">
-                                <rect key="frame" x="0.0" y="64" width="768" height="740.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="arp-Z1-UjA">
-                                    <size key="itemSize" width="100" height="130"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells/>
-                                <connections>
-                                    <outlet property="dataSource" destination="V6P-jq-fg8" id="WQ6-I0-6qT"/>
-                                    <outlet property="delegate" destination="V6P-jq-fg8" id="Gxn-CX-kPl"/>
-                                </connections>
-                            </collectionView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="1bF-Nw-yBk" firstAttribute="trailing" secondItem="LAd-Eh-2Qc" secondAttribute="trailing" id="8LQ-20-AeK"/>
-                            <constraint firstItem="EzG-pf-GAM" firstAttribute="trailing" secondItem="LAd-Eh-2Qc" secondAttribute="trailing" id="Cn9-uq-Gs8"/>
-                            <constraint firstItem="EzG-pf-GAM" firstAttribute="leading" secondItem="LAd-Eh-2Qc" secondAttribute="leading" id="DC4-L9-rzb"/>
-                            <constraint firstItem="EzG-pf-GAM" firstAttribute="trailing" secondItem="LAd-Eh-2Qc" secondAttribute="trailing" id="Mlo-bK-seg"/>
-                            <constraint firstItem="EzG-pf-GAM" firstAttribute="top" secondItem="LAd-Eh-2Qc" secondAttribute="top" id="N3D-Up-P2Y"/>
-                            <constraint firstItem="1bF-Nw-yBk" firstAttribute="bottom" secondItem="LAd-Eh-2Qc" secondAttribute="bottom" id="SN3-QT-yxM"/>
-                            <constraint firstItem="1bF-Nw-yBk" firstAttribute="height" secondItem="rgQ-74-YPZ" secondAttribute="height" multiplier="1/6" id="heL-IQ-j2g"/>
-                            <constraint firstItem="1bF-Nw-yBk" firstAttribute="leading" secondItem="LAd-Eh-2Qc" secondAttribute="leading" id="mK7-Jf-CcB"/>
-                            <constraint firstItem="EzG-pf-GAM" firstAttribute="top" secondItem="LAd-Eh-2Qc" secondAttribute="top" id="xHn-OB-TLj"/>
-                            <constraint firstItem="EzG-pf-GAM" firstAttribute="leading" secondItem="LAd-Eh-2Qc" secondAttribute="leading" id="zD3-lF-vhI"/>
-                            <constraint firstItem="1bF-Nw-yBk" firstAttribute="top" secondItem="EzG-pf-GAM" secondAttribute="bottom" id="zrc-GX-edV"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="LAd-Eh-2Qc"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Qin-ZD-7Ad"/>
-                    <connections>
-                        <outlet property="collectionViewDisease" destination="EzG-pf-GAM" id="1hd-lJ-8W3"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A9U-VD-7dk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="37.5" y="-184.5703125"/>
-        </scene>
         <!--Reproductive Health View Controller-->
         <scene sceneID="Ag2-9F-pB7">
             <objects>
@@ -273,7 +221,7 @@
                                 <rect key="frame" x="0.0" y="804.5" width="768" height="170.5"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dto-bT-J1b">
-                                <rect key="frame" x="0.0" y="64" width="768" height="740.5"/>
+                                <rect key="frame" x="0.0" y="64" width="768" height="741"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GBm-yB-aju">
                                     <size key="itemSize" width="100" height="130"/>
@@ -291,8 +239,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="height" secondItem="sDf-fc-3hx" secondAttribute="height" multiplier="1/6" id="0K8-95-f66"/>
-                            <constraint firstItem="dto-bT-J1b" firstAttribute="top" secondItem="Ijf-pZ-mkt" secondAttribute="top" id="154-yN-Lvp"/>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="top" secondItem="dto-bT-J1b" secondAttribute="bottom" id="1yt-PE-5zD"/>
+                            <constraint firstItem="dto-bT-J1b" firstAttribute="top" secondItem="Ijf-pZ-mkt" secondAttribute="top" id="BoJ-w1-eOQ"/>
                             <constraint firstItem="dto-bT-J1b" firstAttribute="leading" secondItem="Ijf-pZ-mkt" secondAttribute="leading" id="Fd9-2h-udB"/>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="width" secondItem="sDf-fc-3hx" secondAttribute="width" id="Rxm-xC-ygL"/>
                             <constraint firstItem="KZ6-hK-VcU" firstAttribute="bottom" secondItem="Ijf-pZ-mkt" secondAttribute="bottom" id="c9k-B6-DWL"/>
@@ -361,7 +309,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="V6P-jq-fg8" kind="relationship" relationship="rootViewController" id="s6t-ds-YnC"/>
+                        <segue destination="UB1-Jj-YNs" kind="relationship" relationship="rootViewController" id="meN-cf-i9e"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Mb-GY-fJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -434,7 +382,7 @@
                                 <rect key="frame" x="0.0" y="853.5" width="768" height="170.5"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dfq-Dy-bMn">
-                                <rect key="frame" x="0.0" y="20" width="768" height="833.5"/>
+                                <rect key="frame" x="0.0" y="276" width="768" height="578"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Y6X-J0-6P1">
                                     <size key="itemSize" width="100" height="130"/>
@@ -448,17 +396,24 @@
                                     <outlet property="delegate" destination="kDG-hx-iO2" id="QIJ-oX-kS6"/>
                                 </connections>
                             </collectionView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="CDd-4C-BqS">
+                                <rect key="frame" x="0.0" y="20" width="768" height="256"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="width" secondItem="1UK-25-WRd" secondAttribute="width" id="016-N9-RkX"/>
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="bottom" secondItem="BpU-L6-pFa" secondAttribute="bottom" id="2nP-pz-WDj"/>
+                            <constraint firstItem="CDd-4C-BqS" firstAttribute="height" secondItem="yFh-ns-mP9" secondAttribute="height" multiplier="1.5" id="3kX-PJ-Mfa"/>
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="leading" secondItem="BpU-L6-pFa" secondAttribute="leading" id="4za-U5-jId"/>
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="height" secondItem="1UK-25-WRd" secondAttribute="height" multiplier="1/6" id="5JD-UP-9Ti"/>
+                            <constraint firstItem="CDd-4C-BqS" firstAttribute="top" secondItem="BpU-L6-pFa" secondAttribute="top" id="7su-C2-arP"/>
                             <constraint firstItem="dfq-Dy-bMn" firstAttribute="leading" secondItem="BpU-L6-pFa" secondAttribute="leading" id="CJV-q6-f2h"/>
                             <constraint firstItem="yFh-ns-mP9" firstAttribute="top" secondItem="dfq-Dy-bMn" secondAttribute="bottom" id="Wlf-df-inT"/>
+                            <constraint firstItem="CDd-4C-BqS" firstAttribute="trailing" secondItem="BpU-L6-pFa" secondAttribute="trailing" id="Ygh-ns-Auf"/>
+                            <constraint firstItem="CDd-4C-BqS" firstAttribute="leading" secondItem="BpU-L6-pFa" secondAttribute="leading" id="jxI-Ho-Hqf"/>
                             <constraint firstItem="dfq-Dy-bMn" firstAttribute="trailing" secondItem="BpU-L6-pFa" secondAttribute="trailing" id="qZg-oA-f7J"/>
-                            <constraint firstItem="dfq-Dy-bMn" firstAttribute="top" secondItem="BpU-L6-pFa" secondAttribute="top" id="wXA-zg-xTU"/>
+                            <constraint firstItem="dfq-Dy-bMn" firstAttribute="top" secondItem="CDd-4C-BqS" secondAttribute="bottom" id="zms-RA-AVS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BpU-L6-pFa"/>
                     </view>
@@ -469,7 +424,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PNq-aq-1vv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014" y="-916"/>
+            <point key="canvasLocation" x="1013.28125" y="-916.40624999999989"/>
         </scene>
         <!--Main Disease View Controller-->
         <scene sceneID="Knp-6C-yII">
@@ -530,6 +485,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8wI-U6-2BC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3599" y="-915"/>
+        </scene>
+        <!--Library View Controller-->
+        <scene sceneID="wLc-6x-uH9">
+            <objects>
+                <viewController id="UB1-Jj-YNs" customClass="LibraryViewController" customModule="AcarePharmacy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b1E-CY-ji5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Lcm-aa-UjE">
+                                <rect key="frame" x="0.0" y="804.5" width="768" height="170.5"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="U5q-VN-2P1">
+                                <rect key="frame" x="0.0" y="64" width="768" height="741"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PJO-Sl-Qct">
+                                    <size key="itemSize" width="100" height="130"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="UB1-Jj-YNs" id="KuE-K0-0Bf"/>
+                                    <outlet property="delegate" destination="UB1-Jj-YNs" id="Np5-eF-7eU"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U5q-VN-2P1" firstAttribute="leading" secondItem="EWb-JO-100" secondAttribute="leading" id="1ot-QB-vt0"/>
+                            <constraint firstItem="Lcm-aa-UjE" firstAttribute="width" secondItem="b1E-CY-ji5" secondAttribute="width" id="BeE-Tg-8oG"/>
+                            <constraint firstItem="Lcm-aa-UjE" firstAttribute="top" secondItem="U5q-VN-2P1" secondAttribute="bottom" id="Ckd-5t-pmA"/>
+                            <constraint firstItem="Lcm-aa-UjE" firstAttribute="height" secondItem="b1E-CY-ji5" secondAttribute="height" multiplier="1/6" id="Lof-aP-Du6"/>
+                            <constraint firstItem="Lcm-aa-UjE" firstAttribute="leading" secondItem="EWb-JO-100" secondAttribute="leading" id="NIy-fA-dzX"/>
+                            <constraint firstItem="Lcm-aa-UjE" firstAttribute="bottom" secondItem="EWb-JO-100" secondAttribute="bottom" id="SK2-9x-Hnw"/>
+                            <constraint firstItem="U5q-VN-2P1" firstAttribute="top" secondItem="EWb-JO-100" secondAttribute="top" id="cRY-MO-GEg"/>
+                            <constraint firstItem="U5q-VN-2P1" firstAttribute="trailing" secondItem="EWb-JO-100" secondAttribute="trailing" id="y7N-rO-Ejl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EWb-JO-100"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iFb-vu-wTD"/>
+                    <connections>
+                        <outlet property="gridHomeMenuCollectionView" destination="U5q-VN-2P1" id="Pq8-rX-25g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ned-50-cDp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="-185"/>
         </scene>
     </scenes>
     <resources>
