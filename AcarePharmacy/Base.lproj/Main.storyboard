@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="38" y="576"/>
         </scene>
-        <!--View Controller-->
+        <!--Game-->
         <scene sceneID="RFg-V5-hLq">
             <objects>
-                <viewController id="SBy-V1-KgJ" sceneMemberID="viewController">
+                <viewController title="Game" id="SBy-V1-KgJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N7O-Db-5s3">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,10 +280,10 @@
             </objects>
             <point key="canvasLocation" x="-2698" y="223"/>
         </scene>
-        <!--Trang chủ-->
+        <!--Menu-->
         <scene sceneID="lzj-c6-q1a">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sK8-R5-uJC" sceneMemberID="viewController">
+                <navigationController title="Menu" automaticallyAdjustsScrollViewInsets="NO" id="sK8-R5-uJC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Trang chủ" image="tabbar_home" id="gvY-94-1H4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zEP-qL-mF6">
@@ -298,10 +298,10 @@
             </objects>
             <point key="canvasLocation" x="-1020" y="-915"/>
         </scene>
-        <!--Thư viện-->
+        <!--Library-->
         <scene sceneID="Dlk-ty-zWd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S4t-I8-wYg" sceneMemberID="viewController">
+                <navigationController title="Library" automaticallyAdjustsScrollViewInsets="NO" id="S4t-I8-wYg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Thư viện" image="tabbar_question" id="kmz-Hl-lcL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VVQ-gc-lbH">
@@ -316,10 +316,10 @@
             </objects>
             <point key="canvasLocation" x="-1020" y="-184"/>
         </scene>
-        <!--Trắc nghiệm-->
+        <!--Sight-->
         <scene sceneID="QZ2-IG-fja">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vm3-SQ-pNj" sceneMemberID="viewController">
+                <navigationController title="Sight" automaticallyAdjustsScrollViewInsets="NO" id="Vm3-SQ-pNj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Trắc nghiệm" image="tabbar_checklist" id="XAA-G2-vSw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4VJ-d5-1h1">
@@ -334,10 +334,10 @@
             </objects>
             <point key="canvasLocation" x="-1020" y="576"/>
         </scene>
-        <!--Trò chơi-->
+        <!--Game-->
         <scene sceneID="Bkc-1N-mWW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EZq-d8-9Yz" sceneMemberID="viewController">
+                <navigationController title="Game" automaticallyAdjustsScrollViewInsets="NO" id="EZq-d8-9Yz" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Trò chơi" image="tabbar_game" id="s7Y-TD-eeG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="InS-gf-hzp">
